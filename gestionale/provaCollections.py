@@ -308,3 +308,4 @@ while coda_ordini:
     print(f"Sto gestendo l'ordine del cliente: {ordine_corrente.cliente}")
 
 print(f"Ho processato tutti gli ordini!")
+
