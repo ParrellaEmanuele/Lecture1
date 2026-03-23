@@ -1,6 +1,7 @@
 import flet as ft
 
 from gestionale.gestoreOrdini import GestoreOrdini
+from gestionale.provaCollections import prodotto
 
 
 class Controller:
@@ -67,3 +68,14 @@ class Controller:
 
     def stampa_sommario(self, e):
         pass
+
+    def trova_prodotto(self, id_prodotto):
+        prodotto = self._model.cerca_id_prodotto(id_prodotto)
+        self._view._lvOut.controls.append(
+            ft.Text(f"Prodotto trovato: {prodotto}")
+        )
+
+    def prodotto_inesistente(self):
+        self._view._lvOut.controls.append(
+            ft.Text("Prodotto inesistente.")
+        )
