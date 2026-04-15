@@ -15,13 +15,13 @@ class DBConnect:
             try:
                 # cnx = mysql.connector.connect(
                 #     user = "root",
-                #     password = "rootroot",
+                #     password = "W+J2ZC95kx^(5am?",
                 #     host = "127.0.0.1",
                 #     database = "sw_gestionale"
                 # )
                 cls._myPool = mysql.connector.pooling.MySQLConnectionPool(
                     # user = "root",
-                    # password = "rootroot",
+                    # password = "W+J2ZC95kx^(5am?",
                     # host = "127.0.0.1",
                     # database="sw_gestionale",
                     pool_size = 3,

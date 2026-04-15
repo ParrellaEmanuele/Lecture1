@@ -11,7 +11,7 @@ class DAO:
     def getAllProdotti():
         # cnx = mysql.connector.connect(
         #     user = "root",
-        #     password = "rootroot",
+        #     password = "W+J2ZC95kx^(5am?",
         #     host = "127.0.0.1",
         #     database = "sw_gestionale"
         # )
@@ -33,7 +33,7 @@ class DAO:
     def getAllClienti():
         # cnx = mysql.connector.connect(
         #     user = "root",
-        #     password = "rootroot",
+        #     password = "W+J2ZC95kx^(5am?",
         #     host = "127.0.0.1",
         #     database = "sw_gestionale"
         # )
@@ -55,7 +55,7 @@ class DAO:
     def addProdotto(prodotto):
         # cnx = mysql.connector.connect(
         #     user = "root",
-        #     password = "rootroot",
+        #     password = "rootrootW+J2ZC95kx^(5am?",
         #     host = "127.0.0.1",
         #     database = "sw_gestionale"
         # )
@@ -76,7 +76,7 @@ class DAO:
     def addCliente(cliente):
         # cnx = mysql.connector.connect(
         #     user = "root",
-        #     password = "rootroot",
+        #     password = "W+J2ZC95kx^(5am?",
         #     host = "127.0.0.1",
         #     database = "sw_gestionale"
         # )
@@ -98,7 +98,7 @@ class DAO:
     def hasCliente( cliente):
         # cnx = mysql.connector.connect(
         #     user = "root",
-        #     password = "rootroot",
+        #     password = "rootrootW+J2ZC95kx^(5am?",
         #     host = "127.0.0.1",
         #     database = "sw_gestionale"
         # )
@@ -117,7 +117,7 @@ class DAO:
     def hasProdotto(prod):
         # cnx = mysql.connector.connect(
         #     user = "root",
-        #     password = "rootroot",
+        #     password = "W+J2ZC95kx^(5am?",
         #     host = "127.0.0.1",
         #     database = "sw_gestionale"
         # )
